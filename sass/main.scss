@@ -319,7 +319,7 @@ header {
 			}
 
 			a:hover {
-				color: $orange-color;				
+				color: $orange-color;
 			}
 
 			border-radius: 0;
@@ -376,16 +376,14 @@ header {
 
 	.contacts {
 		.social-media {
-			font-size: 24px;			
+			font-size: 24px;
 		}
 	}
-	.video {				
-	
-		.video-wrap {	
-			
+	.video {
+		.video-wrap {
 			width: 512px;
-			height: 288px;			
-		}		
+			height: 288px;
+		}
 	}
 }
 
@@ -393,7 +391,6 @@ header {
 	.contacts {
 		.social-media {
 			font-size: 30px;
-			
 		}
 	}
 }
@@ -413,18 +410,18 @@ header {
 		}
 	}
 
-	.video {				
-		
+	.video {
 		.video-menu-tab {
 			padding: 0.5em 1em;
-			font-size: 18px;			
-		}	
+			font-size: 18px;
+		}
 
-		.video-wrap {			
-			width: 768px;
-			height: 432px;			
-		}	
-		
+		.video-wrap {
+			// width: 768px;
+			// height: 432px;
+			width: 512px;
+			height: 288px;
+		}
 	}
 }
 
@@ -434,34 +431,32 @@ header {
 	}
 
 	.video {
-		.wrapper {			
-			padding: 3em;			
+		.wrapper {
+			padding: 3em;
 		}
-	
+
 		.video-menu-tabs {
 			margin-bottom: 2em;
 		}
-	
+
 		.video-menu-tab {
 			padding: 0.5em 1em;
-			font-size: 24px;			
-		}		
-	
-		.video-wrap {	
-			
-			width: 1024px;
-			height: 576px;			
-		}		
+			font-size: 24px;
+		}
+
+		.video-wrap {
+			// width: 1024px;
+			// height: 576px;
+			width: 768px;
+			height: 432px;
+		}
 	}
 
 	.contacts {
 		.social-media {
 			font-size: 48px;
-			
 		}
 	}
-	
-
 }
 
 @media (min-width: 1200px) {
@@ -473,25 +468,26 @@ header {
 		.hero-shadow {
 			background-image: url("../img/logo-black-big.jpg");
 		}
-	}	
+	}
 	.video {
-		.wrapper {			
-			padding: 3em;			
+		.wrapper {
+			padding: 3em;
 		}
-	
+
 		.video-menu-tabs {
 			margin-bottom: 2em;
 		}
-	
+
 		.video-menu-tab {
 			padding: 0.5em 1em;
-			font-size: 28px;			
-		}		
-	
-		.video-wrap {	
-			
-			width: 1280px;
-			height: 720px;			
-		}		
+			font-size: 28px;
+		}
+
+		.video-wrap {
+			// width: 1280px;
+			// height: 720px;
+			width: 1024px;
+			height: 576px;
+		}
 	}
 }
